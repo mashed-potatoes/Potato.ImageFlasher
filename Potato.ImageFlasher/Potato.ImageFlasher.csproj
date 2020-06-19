@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>mashed-potatoes</Authors>
+    <Description>A tiny library for bootloader flashing in VCOM_DOWNLOAD mode on Huawei phones.</Description>
+    <Copyright>Copyright 2020 (C) mashed-potatoes</Copyright>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/mashed-potatoes/Potato.ImageFlasher</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mashed-potatoes/Potato.ImageFlasher.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Phone Huawei Bootloader VCOM SerialPort</PackageTags>
+    <PackageReleaseNotes>First version.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
