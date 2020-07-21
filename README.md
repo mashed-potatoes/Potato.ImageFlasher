@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/mashed-potatoes/Potato.ImageFlasher.svg?branch=master)](https://travis-ci.org/mashed-potatoes/Potato.ImageFlasher)
 [![NuGet Version](https://img.shields.io/nuget/v/Potato.ImageFlasher.svg)](https://www.nuget.org/packages/Potato.ImageFlasher)
 [![Nuget](https://img.shields.io/nuget/dt/Potato.ImageFlasher)](https://www.nuget.org/packages/Potato.ImageFlasher)
+[![CodeFactor](https://www.codefactor.io/repository/github/mashed-potatoes/potato.imageflasher/badge)](https://www.codefactor.io/repository/github/mashed-potatoes/potato.imageflasher)
 ![GPL-3.0](https://img.shields.io/github/license/mashed-potatoes/Potato.ImageFlasher.svg)
 
 A tiny library for bootloader flashing in VCOM_DOWNLOAD mode on Huawei phones.
