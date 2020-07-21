@@ -41,7 +41,7 @@ namespace Potato.ImageFlasher
         {
             var stream = new FileStream(path, FileMode.Open, FileAccess.Read);
             var length = (int)stream.Length;
-            var nframes = length / MAX_DATA_LEN + (length % MAX_DATA_LEN > 0 ? 1 : 0);
+            var nframes = length / (MAX_DATA_LEN + (length % MAX_DATA_LEN > 0 ? 1 : 0));
             var n = 0;
             var buffer = new byte[MAX_DATA_LEN];
 
