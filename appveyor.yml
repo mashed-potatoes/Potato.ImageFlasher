@@ -1,0 +1,8 @@
+version: 1.0.1-{build}
+configuration: Debug
+clone_depth: 1
+before_build:
+- cmd: nuget restore
+build:
+  project: Potato.ImageFlasher.sln
+  verbosity: normal
